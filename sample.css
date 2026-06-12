@@ -1,0 +1,66 @@
+body{
+    color: aqua;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* p{
+    font-style: italic ;
+} */
+#l1{
+    font-style: italic;
+}
+#l2{
+    font-style: normal;
+}
+.h1c{
+    font-size: 30px;
+    font-weight: 900;
+}
+img{
+    height :300px;
+    width : 500px;
+    border-radius: 100px;
+}
+
+ol{
+    list-style-type: disc;
+}
+table,th,td{
+    border: 1px solid white;
+}
+a:hover{
+    background-color: aquamarine;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px */
+}
+.grid{
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+
+}
+@media (max-width:600px){
+ img{
+    height: auto;
+    width: 100%;
+ }
+}
+
+@media (min-width:1024px){
+ nav{
+    display: flex;
+    flex-direction: row;
+    gap : 50px;
+ }
+}
+@media (min-width:1024px){
+ .grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+}
+
+
